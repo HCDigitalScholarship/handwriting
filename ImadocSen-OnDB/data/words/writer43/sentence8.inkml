@@ -1,0 +1,50 @@
+<ink>
+  <definitions>
+    <inkSource id="inkSource_ImadocSen-OnDB_writer43-sentence8_1" manufacturer="Fujitsu Siemens" model="stylistic ST5022D" description="Tablet PC">
+      <traceFormat id="traceFormat_ImadocSen-OnDB_writer43-sentence8_1">
+        <channel name="X" type="integer" units="ink" />
+        <channel name="Y" type="integer" units="ink" />
+      </traceFormat>
+    </inkSource>
+    <brush id="brush_ImadocSen-OnDB_writer43-sentence8_1">
+      <brushProperty name="color" value="#0000FF" />
+      <brushProperty name="width" value="3" />
+      <brushProperty name="transparency" value="0" />
+    </brush>
+    <context id="context_ImadocSen-OnDB_writer43-sentence8_1" inkSourceRef="#inkSource_ImadocSen-OnDB_writer43-sentence8_1" brushRef="#brush_ImadocSen-OnDB_writer43-sentence8_1" />
+  </definitions>
+  <annotationXML type="Writer characteristics">
+    <name>writer43-sentence8</name>
+    <age>18-25</age>
+    <gender>Male</gender>
+    <captureTime year="2007" month="04" day="03">16:57:16.628</captureTime>
+  </annotationXML>
+  <traceGroup id="traceGroup-Sentence_ImadocSen-OnDB_writer43-sentence8_1">
+    <annotationXML type="Input zone">
+      <inkType>Freeform</inkType>
+      <editable>True</editable>
+      <baseline>True</baseline>
+      <page>8</page>
+    </annotationXML>
+    <annotationXML type="Ground truth">
+      <type>Sentence</type>
+      <label>is not</label>
+    </annotationXML>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer43-sentence8_1_1">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>is</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer43-sentence8_1_1_1" contextRef="#context_ImadocSen-OnDB_writer43-sentence8_1"> 150 792, 101 805, 101 805, 101 805, 101 805, 101 805, 101 805, 101 805, 101 805, 101 805, 101 805, 101 805, 101 805, 143 747, 143 747, 181 695, 181 695, 224 634, 224 634, 267 571, 267 571, 304 504, 304 504, 336 440, 336 440, 364 385, 364 385, 364 385, 386 335, 386 335, 386 335, 386 335, 386 335, 386 335, 386 335, 369 400, 369 400, 360 447, 360 447, 360 502, 360 502, 360 558, 360 558, 374 608, 374 608, 374 608, 412 660, 412 660, 412 660, 468 676, 468 676, 515 669, 515 669, 515 669, 515 669</trace>
+      <trace id="trace_ImadocSen-OnDB_writer43-sentence8_1_1_2" contextRef="#context_ImadocSen-OnDB_writer43-sentence8_1"> 455 148, 455 148, 429 101, 429 101, 429 101, 429 101, 429 101, 429 101, 429 101, 429 101</trace>
+      <trace id="trace_ImadocSen-OnDB_writer43-sentence8_1_1_3" contextRef="#context_ImadocSen-OnDB_writer43-sentence8_1"> 545 662, 545 662, 543 708, 543 708, 543 708, 543 708, 543 708, 592 658, 592 658, 618 614, 618 614, 644 561, 644 561, 670 508, 670 508, 690 455, 690 455, 690 455, 714 399, 714 393, 714 393, 730 390, 740 401, 751 424, 768 454, 789 488, 816 524, 844 562, 871 587, 896 609, 917 628, 931 643, 937 659, 936 670, 928 676, 912 679, 893 679, 872 679, 843 673, 819 669, 800 663, 783 658, 771 658, 758 651, 754 651, 758 651, 767 655, 767 655</trace>
+    </traceGroup>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer43-sentence8_1_2">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>not</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer43-sentence8_1_2_1" contextRef="#context_ImadocSen-OnDB_writer43-sentence8_1"> 1344 751, 1334 751, 1334 740, 1334 735, 1339 714, 1349 693, 1360 664, 1375 633, 1389 597, 1407 563, 1423 529, 1438 499, 1454 471, 1466 451, 1477 438, 1486 432, 1493 436, 1496 446, 1499 461, 1499 483, 1499 511, 1499 541, 1499 572, 1499 600, 1499 625, 1499 645, 1503 660, 1501 669, 1510 665, 1516 655, 1523 639, 1536 618, 1547 594, 1560 567, 1573 539, 1589 511, 1600 491, 1609 476, 1616 467, 1623 467, 1626 470, 1626 482, 1626 500, 1626 525, 1626 553, 1629 583, 1635 612, 1639 642, 1647 670, 1659 694, 1675 713, 1694 726, 1715 733, 1741 733, 1764 727, 1788 716, 1811 697, 1831 674, 1851 648, 1867 620, 1877 594, 1885 569, 1891 548, 1891 531, 1894 523, 1894 523, 1894 525, 1887 540, 1887 558, 1891 582, 1897 607, 1904 633, 1917 660, 1934 683, 1953 700, 1980 712, 2006 717, 2035 717, 2063 717, 2091 706, 2114 694, 2136 680, 2151 662, 2161 643, 2161 625, 2156 608, 2143 590, 2122 577, 2100 565, 2073 554, 2046 547, 2020 541, 1998 541, 1980 537, 1967 537, 1960 542, 1960 545, 1960 551, 1971 555, 1987 560, 2006 560, 2030 560, 2057 555, 2090 543, 2125 524, 2160 499, 2194 468, 2226 429, 2256 385, 2282 340, 2304 293, 2321 250, 2332 210, 2338 176, 2338 148, 2338 126, 2335 116, 2328 116, 2322 122, 2313 139, 2306 166, 2300 201, 2295 245, 2291 296, 2291 351, 2291 410, 2291 466, 2291 519, 2296 567, 2301 605, 2305 634, 2308 657, 2312 668, 2312 668, 2317 657, 2317 639, 2317 612, 2317 579, 2313 544, 2310 508, 2305 470, 2301 437, 2296 411, 2292 389, 2292 372, 2292 363, 2292 363, 2301 363, 2308 371, 2318 381, 2332 392, 2346 404, 2362 416, 2380 428, 2398 438, 2416 444, 2435 448, 2455 448, 2475 448, 2496 438, 2517 431, 2537 421, 2555 410, 2573 401, 2587 393, 2598 385, 2607 382, 2610 378, 2620 384, 2617 384, 2617 384, 2608 384, 2602 388, 2602 388</trace>
+    </traceGroup>
+  </traceGroup>
+</ink>

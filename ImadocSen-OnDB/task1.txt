@@ -1,0 +1,67 @@
+##### task1.txt ####
+#
+# Information on the distribution of the writers 
+# between the training set and the test set.
+#
+#####
+
+
+In our work, the distribution of the writers between the training set and the test set is as follows.
+
+
+## training set ##
+
+writer3
+writer3b
+writer6
+writer6c
+writer8
+writer9
+writer10
+writer13
+writer13b
+writer16
+writer17
+writer19
+writer21
+writer22
+writer23
+writer25
+writer26
+writer30
+writer31
+writer36
+writer37
+writer38
+writer39
+writer40
+writer44
+writer45
+writer49
+
+
+## test set ##
+
+writer1d
+writer1k
+writer2c
+writer2d
+writer4
+writer4b
+writer7
+writer7b
+writer12
+writer12b
+writer14b
+writer27
+writer27b
+writer28
+writer29
+writer32
+writer34
+writer35
+writer41
+writer42
+writer42
+writer46
+writer48

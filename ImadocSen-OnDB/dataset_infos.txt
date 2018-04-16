@@ -1,0 +1,41 @@
+##### dataset_infos.txt ####
+#
+# Information on the on-line handwritten sentence dataset.
+#
+#####
+
+
+## data infos ##
+
+ImadocSen-OnDB is an on-line handwritten sentence database that contains data acquired from 51 writers. The collection contains English sentences with lowercase words and no punctuation signs, and was acquired on TabletPCs. 
+The data collection sessions were performed by the Imadoc team (Irisa laboratory, Rennes, France).
+
+
+## data collection protocol ##
+
+The handwritten data were acquired on TabletPCs, using a self-designed input data collection application.
+
+One data collection session consists in writing 20 sentences, with no constraint on how to write them. Each page of the application contains 1 sentence to write; each zone contains an image of the sentence to write as well as an input area (below the image), where the sentence is to be written. 
+
+Each writer performed 1 or 2 sessions on a TabletPC.
+
+
+## data format (InkML) ##
+
+The InkML format is an XML-based format proposed by the W3C Multimodal Interaction Activity to represent ink entered with an electronic pen (on a TabletPC, a whiteboard...). 
+See http://www.w3.org/TR/InkML/ for further details on the InkML format (here, the files comply with the InkML version of January, 11 2011 -- see http://www.w3.org/TR/2011/CR-InkML-20110111/).
+
+Each InkML file contains the following information:
+    <definitions> contains definitions of information that can be referenced.
+        <inkSource ...> contains the manufacturer, the model and the description of the acquisition device.
+	         <traceFormat ...> contains the channels used to record the points of the digital signal corresponding to the gestures (here, X and Y coordinates are considered as well as the pen tip force F).
+     	  <brush ...> contains the color, the width and the transparency of the digital ink used during the data acquisition.
+	      <context ...> corresponds to a graphical context referring to the inkSource and brush used for the gesture input.
+
+     <annotationXML type="Writer characteristics"> contains the name, the age-group, the gender, the handedness and the native language of the writer as well as the capturing time of the start of the data collection.
+
+     <traceGroup ...> contains the information about an input sentence or word.
+     	  <annotationXML type="Input zone"> contains information on the input drawing area, i.e. if the input ink is constrained or not, if a baseline is displayed on it, and the page number on which it appears in the collected form.
+        <annotationXML type="Ground truth"> contains the ground truth, i.e. the type of the element further given (sentence or word) as well as its corresponding label (i.e. what was written).
+     	  <trace ...> contains time information on the corresponding stroke and refers to the graphical context used to draw it; it also contains the ordered list of points constituting the stroke (with as many point coordinates as the number of channels, described in the traceFormat element that the graphical context is referring to).
+

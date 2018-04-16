@@ -1,0 +1,92 @@
+<ink>
+  <definitions>
+    <inkSource id="inkSource_ImadocSen-OnDB_writer36-sentence11_1" manufacturer="Fujitsu Siemens" model="stylistic ST5022D" description="Tablet PC">
+      <traceFormat id="traceFormat_ImadocSen-OnDB_writer36-sentence11_1">
+        <channel name="X" type="integer" units="ink" />
+        <channel name="Y" type="integer" units="ink" />
+      </traceFormat>
+    </inkSource>
+    <brush id="brush_ImadocSen-OnDB_writer36-sentence11_1">
+      <brushProperty name="color" value="#0000FF" />
+      <brushProperty name="width" value="3" />
+      <brushProperty name="transparency" value="0" />
+    </brush>
+    <context id="context_ImadocSen-OnDB_writer36-sentence11_1" inkSourceRef="#inkSource_ImadocSen-OnDB_writer36-sentence11_1" brushRef="#brush_ImadocSen-OnDB_writer36-sentence11_1" />
+  </definitions>
+  <annotationXML type="Writer characteristics">
+    <name>writer36-sentence11</name>
+    <age>36-45</age>
+    <gender>Male</gender>
+    <captureTime year="2007" month="03" day="15">13:48:01.582</captureTime>
+  </annotationXML>
+  <traceGroup id="traceGroup-Sentence_ImadocSen-OnDB_writer36-sentence11_1">
+    <annotationXML type="Input zone">
+      <inkType>Freeform</inkType>
+      <editable>True</editable>
+      <baseline>True</baseline>
+      <page>11</page>
+    </annotationXML>
+    <annotationXML type="Ground truth">
+      <type>Sentence</type>
+      <label>can you find it all right</label>
+    </annotationXML>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer36-sentence11_1_1">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>can</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_1_1" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 217 674, 227 668, 237 663, 245 659, 250 652, 260 649, 266 642, 276 639, 280 632, 289 632, 289 627, 298 627, 298 622, 301 622, 301 619, 301 619, 298 613, 298 613, 292 604, 289 604, 277 598, 263 598, 244 598, 225 605, 202 614, 180 628, 155 647, 134 670, 117 696, 107 725, 101 754, 101 781, 110 807, 126 830, 149 847, 177 857, 214 867, 249 867, 295 864, 339 854, 385 842, 385 842</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_1_2" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 666 691, 661 670, 656 657, 656 647, 645 627, 645 620, 633 611, 626 608, 616 608, 605 608, 593 617, 581 629, 570 644, 558 664, 548 687, 539 715, 532 744, 529 773, 529 800, 529 825, 536 846, 543 864, 556 877, 569 884, 584 884, 603 884, 622 874, 642 861, 659 843, 676 823, 690 802, 701 782, 711 765, 718 749, 722 738, 722 730, 726 730, 726 737, 726 748, 731 761, 736 778, 744 797, 754 816, 767 836, 780 856, 796 870, 814 884, 831 893, 848 899, 863 899, 879 899, 892 891, 904 880, 915 863, 926 841, 937 818, 947 793, 957 771, 965 750, 972 734, 980 721, 988 717, 994 721, 1001 732, 1005 748, 1011 770, 1015 793, 1021 819, 1025 842, 1030 863, 1033 880, 1036 889, 1043 889, 1053 885, 1065 872, 1078 853, 1094 831, 1111 809, 1129 787, 1146 768, 1164 755, 1180 750, 1193 757, 1206 769, 1217 789, 1228 812, 1240 839, 1252 867, 1266 897, 1274 913, 1290 936, 1306 950, 1328 962, 1348 966, 1348 966</trace>
+    </traceGroup>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer36-sentence11_1_2">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>you</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_2_1" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 2099 653, 2095 648, 2095 651, 2099 662, 2096 673, 2103 694, 2111 716, 2124 742, 2140 766, 2157 789, 2178 807, 2200 821, 2226 825, 2251 822, 2280 811, 2305 792, 2333 767, 2356 738, 2378 707, 2396 680, 2409 658, 2416 644, 2416 644, 2416 660, 2404 692, 2390 743, 2368 811, 2342 896, 2311 992, 2281 1090, 2253 1186, 2230 1273, 2214 1349, 2203 1410, 2203 1451, 2208 1467, 2226 1467, 2241 1454, 2262 1428, 2280 1389, 2280 1389</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_2_2" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 2530 844, 2552 830, 2558 830, 2565 834, 2570 842, 2582 856, 2593 870, 2609 887, 2627 902, 2648 916, 2668 925, 2691 928, 2712 925, 2734 915, 2754 900, 2770 878, 2786 852, 2798 823, 2806 793, 2806 766, 2802 740, 2791 718, 2774 702, 2753 694, 2727 694, 2700 694, 2674 707, 2648 723, 2628 746, 2606 765, 2595 791, 2588 814, 2588 837, 2597 856, 2597 856</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_2_3" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 2920 803, 2936 773, 2942 765, 2946 751, 2952 751, 2957 762, 2963 778, 2971 797, 2982 820, 2993 845, 3006 870, 3018 894, 3032 911, 3045 922, 3060 928, 3076 928, 3091 919, 3105 906, 3120 888, 3134 865, 3146 842, 3157 820, 3166 801, 3171 787, 3171 780, 3174 780, 3174 785, 3174 799, 3177 818, 3177 842, 3184 868, 3191 898, 3201 923, 3219 959, 3233 980, 3253 1001, 3270 1012, 3295 1020, 3295 1020</trace>
+    </traceGroup>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer36-sentence11_1_3">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>find</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_3_1" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 3947 218, 3952 142, 3955 124, 3965 131, 3969 157, 3982 220, 3987 307, 3991 424, 3991 563, 3983 718, 3972 880, 3963 1040, 3951 1187, 3941 1315, 3933 1422, 3930 1505, 3933 1561, 3942 1589, 3957 1598, 3969 1584, 3989 1562, 3998 1519, 4013 1464, 4022 1395, 4034 1322, 4034 1322</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_3_2" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 4161 807, 4183 787, 4194 787, 4199 791, 4205 802, 4210 820, 4216 842, 4222 866, 4229 893, 4235 918, 4244 938, 4255 953, 4265 953, 4282 958, 4295 949, 4309 936, 4319 909, 4319 909</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_3_3" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 4316 611, 4301 546, 4295 527, 4288 514, 4288 507, 4293 516, 4296 528, 4306 547, 4316 570, 4316 570</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_3_4" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 4470 819, 4470 845, 4465 850, 4465 855, 4458 851, 4458 851, 4454 851, 4454 846, 4454 839, 4454 827, 4458 815, 4465 801, 4475 783, 4488 767, 4506 750, 4529 735, 4554 724, 4581 717, 4607 717, 4631 717, 4652 726, 4671 740, 4685 760, 4693 782, 4700 808, 4703 833, 4706 858, 4706 879, 4718 902, 4723 915, 4735 923, 4747 923, 4747 923</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_3_5" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 5079 732, 5103 701, 5109 686, 5114 675, 5111 664, 5111 659, 5104 659, 5098 659, 5087 668, 5076 681, 5061 697, 5048 721, 5034 747, 5023 775, 5015 803, 5012 832, 5012 859, 5019 885, 5031 907, 5046 922, 5066 934, 5085 940, 5109 940, 5130 930, 5153 915, 5171 885, 5190 847, 5205 798, 5217 738, 5225 667, 5233 590, 5240 516, 5243 443, 5249 381, 5249 328, 5255 294, 5255 278, 5262 286, 5262 315, 5265 362, 5265 422, 5265 492, 5265 570, 5265 649, 5265 724, 5270 792, 5276 848, 5286 893, 5304 931, 5320 947, 5343 952, 5364 943, 5390 925, 5390 925</trace>
+    </traceGroup>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer36-sentence11_1_4">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>it</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_4_1" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 6182 674, 6189 668, 6189 668, 6189 675, 6189 682, 6189 701, 6189 721, 6189 743, 6189 765, 6189 786, 6192 804, 6197 815, 6212 823, 6220 819, 6231 811, 6239 793, 6239 793</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_4_2" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 6223 425, 6203 395, 6195 392, 6190 392, 6190 402, 6186 415, 6186 432, 6182 448, 6182 448</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_4_3" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 6437 243, 6451 238, 6459 259, 6459 287, 6466 335, 6466 392, 6472 461, 6472 539, 6480 619, 6486 697, 6489 768, 6492 831, 6484 880, 6484 915, 6484 932, 6484 938, 6484 938</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_4_4" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 6332 701, 6326 695, 6335 686, 6354 683, 6380 679, 6412 675, 6451 675, 6489 669, 6542 664, 6595 657, 6650 647, 6650 647</trace>
+    </traceGroup>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer36-sentence11_1_5">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>all</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_5_1" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 7600 703, 7606 671, 7609 654, 7606 632, 7606 617, 7595 597, 7588 583, 7577 572, 7566 567, 7550 567, 7536 578, 7521 595, 7506 617, 7494 643, 7484 675, 7479 708, 7479 738, 7479 766, 7483 789, 7493 805, 7505 818, 7521 821, 7537 816, 7554 807, 7570 792, 7586 772, 7602 750, 7617 725, 7630 701, 7641 680, 7650 661, 7656 647, 7661 638, 7665 638, 7668 638, 7668 651, 7672 668, 7675 687, 7678 713, 7684 738, 7691 762, 7700 786, 7710 802, 7726 818, 7735 818, 7753 818, 7765 801, 7784 783, 7794 750, 7814 715, 7814 715</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_5_2" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 7839 598, 7869 457, 7887 385, 7900 313, 7919 255, 7925 199, 7942 170, 7946 154, 7955 163, 7955 190, 7958 235, 7958 294, 7954 363, 7951 438, 7951 516, 7951 587, 7951 653, 7954 708, 7957 743, 7972 765, 7982 771, 7996 767, 8006 747, 8006 747</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_5_3" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 8101 167, 8118 101, 8126 101, 8126 114, 8130 152, 8127 209, 8122 283, 8116 364, 8111 454, 8107 542, 8107 628, 8107 706, 8107 771, 8116 825, 8116 859, 8131 882, 8143 887, 8155 878, 8155 878</trace>
+    </traceGroup>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer36-sentence11_1_6">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>right</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_6_1" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 8566 758, 8561 762, 8558 773, 8558 790, 8563 810, 8567 835, 8571 862, 8577 889, 8581 912, 8586 931, 8589 943, 8589 951, 8589 951, 8589 945, 8585 933, 8581 915, 8578 889, 8575 859, 8575 825, 8575 790, 8578 754, 8585 719, 8593 687, 8602 660, 8614 640, 8626 625, 8641 617, 8655 617, 8673 620, 8686 625, 8705 640, 8722 654, 8744 672, 8764 687, 8764 687</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_6_2" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 8889 840, 8889 852, 8889 856, 8895 863, 8890 869, 8894 878, 8898 887, 8901 899, 8905 911, 8905 921, 8914 934, 8914 941, 8923 947, 8926 947, 8926 947</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_6_3" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 9008 664, 9005 638, 9005 631, 8999 631, 8999 631, 8999 637, 9002 644, 9011 657, 9011 657</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_6_4" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 9114 758, 9099 764, 9103 778, 9109 797, 9125 831, 9145 876, 9172 937, 9200 1008, 9232 1091, 9261 1179, 9290 1271, 9313 1360, 9330 1444, 9338 1518, 9338 1580, 9329 1631, 9312 1666, 9291 1687, 9265 1694, 9238 1688, 9210 1668, 9185 1633, 9163 1587, 9148 1530, 9140 1466, 9140 1396, 9140 1326, 9152 1255, 9169 1188, 9190 1128, 9216 1073, 9246 1024, 9279 980, 9314 936, 9353 894, 9392 850, 9432 805, 9471 757, 9510 705, 9544 648, 9575 587, 9601 524, 9623 459, 9640 396, 9651 337, 9658 285, 9664 242, 9667 211, 9667 196, 9667 196, 9667 217, 9661 253, 9654 306, 9646 370, 9636 444, 9624 522, 9612 604, 9602 680, 9592 748, 9583 804, 9578 847, 9573 878, 9573 897, 9573 905, 9579 901, 9587 893, 9597 878, 9608 862, 9620 846, 9634 829, 9647 814, 9661 803, 9673 800, 9684 800, 9695 804, 9704 816, 9712 830, 9721 850, 9730 870, 9738 894, 9748 913, 9758 930, 9770 944, 9784 952, 9801 952, 9818 952, 9837 939, 9857 921, 9877 894, 9899 861, 9921 819, 9943 767, 9966 705, 9990 636, 10017 563, 10044 488, 10071 417, 10095 351, 10118 293, 10138 245, 10153 211, 10164 188, 10171 177, 10171 177, 10171 194, 10163 223, 10153 266, 10140 323, 10126 388, 10108 461, 10093 540, 10078 619, 10067 694, 10059 759, 10053 814, 10053 858, 10050 885, 10057 907, 10057 912, 10063 912, 10060 899, 10060 899</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence11_1_6_5" contextRef="#context_ImadocSen-OnDB_writer36-sentence11_1"> 10025 791, 10008 739, 10003 717, 9996 686, 9996 668, 9996 649, 10001 633, 10013 620, 10032 610, 10061 603, 10097 599, 10138 599, 10181 599, 10226 599, 10266 599, 10303 604, 10332 604, 10355 604, 10366 599, 10366 599</trace>
+    </traceGroup>
+  </traceGroup>
+</ink>

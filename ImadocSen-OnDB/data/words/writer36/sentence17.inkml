@@ -1,0 +1,59 @@
+<ink>
+  <definitions>
+    <inkSource id="inkSource_ImadocSen-OnDB_writer36-sentence17_1" manufacturer="Fujitsu Siemens" model="stylistic ST5022D" description="Tablet PC">
+      <traceFormat id="traceFormat_ImadocSen-OnDB_writer36-sentence17_1">
+        <channel name="X" type="integer" units="ink" />
+        <channel name="Y" type="integer" units="ink" />
+      </traceFormat>
+    </inkSource>
+    <brush id="brush_ImadocSen-OnDB_writer36-sentence17_1">
+      <brushProperty name="color" value="#0000FF" />
+      <brushProperty name="width" value="3" />
+      <brushProperty name="transparency" value="0" />
+    </brush>
+    <context id="context_ImadocSen-OnDB_writer36-sentence17_1" inkSourceRef="#inkSource_ImadocSen-OnDB_writer36-sentence17_1" brushRef="#brush_ImadocSen-OnDB_writer36-sentence17_1" />
+  </definitions>
+  <annotationXML type="Writer characteristics">
+    <name>writer36-sentence17</name>
+    <age>36-45</age>
+    <gender>Male</gender>
+    <captureTime year="2007" month="03" day="15">13:48:01.582</captureTime>
+  </annotationXML>
+  <traceGroup id="traceGroup-Sentence_ImadocSen-OnDB_writer36-sentence17_1">
+    <annotationXML type="Input zone">
+      <inkType>Freeform</inkType>
+      <editable>True</editable>
+      <baseline>True</baseline>
+      <page>17</page>
+    </annotationXML>
+    <annotationXML type="Ground truth">
+      <type>Sentence</type>
+      <label>want to beer</label>
+    </annotationXML>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer36-sentence17_1_1">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>want</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence17_1_1_1" contextRef="#context_ImadocSen-OnDB_writer36-sentence17_1"> 105 553, 105 533, 105 524, 105 513, 105 509, 102 495, 105 495, 101 485, 101 485, 101 485, 101 493, 101 509, 101 531, 101 559, 101 596, 104 634, 110 675, 114 715, 122 750, 131 779, 142 802, 153 816, 166 820, 180 820, 195 808, 209 791, 222 770, 234 743, 243 716, 252 686, 258 660, 261 635, 261 614, 264 599, 264 590, 264 590, 264 590, 270 601, 274 617, 281 635, 290 659, 301 685, 314 713, 327 738, 344 761, 359 780, 374 794, 391 804, 406 804, 422 804, 436 794, 449 778, 463 759, 474 735, 484 709, 492 683, 498 656, 503 632, 508 611, 511 597, 511 586, 519 582, 519 579, 531 585, 537 590, 548 600, 557 607, 557 607</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence17_1_1_2" contextRef="#context_ImadocSen-OnDB_writer36-sentence17_1"> 960 590, 960 559, 953 546, 944 530, 937 519, 925 509, 914 503, 899 500, 886 500, 872 509, 858 521, 844 536, 832 557, 820 581, 811 612, 802 645, 797 680, 792 715, 792 748, 792 779, 797 806, 802 828, 811 843, 822 850, 836 850, 853 846, 868 833, 885 812, 900 786, 915 758, 927 727, 937 697, 942 668, 947 644, 947 623, 950 610, 950 602, 950 602, 950 602, 953 616, 957 634, 962 657, 968 683, 976 711, 986 741, 996 768, 1008 791, 1020 810, 1035 818, 1050 822, 1066 818, 1083 806, 1101 794, 1118 777, 1134 758, 1149 739, 1163 721, 1174 707, 1183 697, 1188 692, 1194 688, 1198 693, 1202 703, 1207 717, 1207 732, 1213 749, 1217 765, 1222 781, 1222 792, 1229 797, 1237 797, 1248 784, 1264 769, 1281 751, 1299 731, 1318 711, 1339 694, 1357 681, 1372 673, 1384 673, 1393 681, 1402 695, 1410 713, 1417 735, 1426 759, 1437 783, 1449 806, 1463 827, 1476 844, 1489 855, 1503 861, 1519 861, 1535 856, 1553 844, 1571 825, 1589 800, 1608 767, 1629 727, 1650 676, 1672 618, 1694 551, 1717 479, 1740 405, 1765 333, 1788 266, 1808 207, 1826 158, 1838 123, 1847 104, 1847 101, 1847 114, 1843 145, 1834 193, 1824 257, 1815 332, 1809 417, 1804 506, 1804 594, 1808 675, 1813 746, 1820 802, 1827 843, 1834 866, 1844 878, 1844 871, 1844 857, 1840 828, 1835 800, 1821 764, 1805 731, 1788 700, 1765 667, 1750 644, 1728 622, 1712 610, 1695 596, 1689 586, 1683 574, 1683 564, 1694 554, 1711 545, 1736 536, 1769 528, 1810 522, 1857 515, 1910 511, 1963 505, 2023 505, 2070 500, 2114 497, 2148 488, 2148 488</trace>
+    </traceGroup>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer36-sentence17_1_2">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>to</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence17_1_2_1" contextRef="#context_ImadocSen-OnDB_writer36-sentence17_1"> 3314 147, 3308 242, 3298 306, 3290 379, 3277 448, 3271 528, 3261 601, 3256 670, 3250 725, 3246 767, 3246 797, 3251 812, 3258 812, 3263 802, 3268 784, 3268 784</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence17_1_2_2" contextRef="#context_ImadocSen-OnDB_writer36-sentence17_1"> 3149 576, 3139 570, 3139 560, 3153 560, 3172 551, 3200 544, 3233 536, 3273 532, 3318 527, 3362 522, 3415 522, 3458 517, 3498 517, 3530 517, 3530 517</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence17_1_2_3" contextRef="#context_ImadocSen-OnDB_writer36-sentence17_1"> 3579 546, 3569 568, 3564 580, 3564 602, 3558 619, 3563 645, 3563 668, 3574 695, 3583 718, 3595 740, 3609 758, 3626 771, 3644 779, 3667 779, 3689 774, 3710 765, 3730 752, 3747 736, 3759 715, 3767 691, 3767 664, 3762 638, 3751 613, 3736 591, 3716 575, 3691 565, 3665 565, 3637 565, 3618 584, 3590 602, 3572 631, 3553 659, 3553 659</trace>
+    </traceGroup>
+    <traceGroup id="traceGroup-Word_ImadocSen-OnDB_writer36-sentence17_1_3">
+      <annotationXML type="Ground truth">
+        <type>Word</type>
+        <label>beer</label>
+      </annotationXML>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence17_1_3_1" contextRef="#context_ImadocSen-OnDB_writer36-sentence17_1"> 4563 190, 4575 138, 4580 125, 4580 121, 4580 134, 4576 156, 4571 196, 4562 245, 4553 305, 4542 368, 4533 433, 4524 493, 4519 546, 4514 589, 4514 621, 4511 640, 4511 649, 4515 649, 4521 638, 4527 622, 4539 605, 4556 584, 4577 565, 4602 548, 4631 537, 4663 534, 4696 538, 4728 552, 4757 573, 4779 600, 4793 634, 4800 671, 4800 706, 4788 740, 4768 771, 4742 796, 4711 816, 4679 829, 4647 834, 4617 834, 4588 828, 4566 820, 4548 806, 4538 789, 4532 770, 4532 751, 4535 734, 4545 718, 4558 704, 4575 692, 4596 682, 4619 677, 4646 674, 4676 674, 4708 674, 4742 674, 4778 674, 4816 674, 4854 677, 4892 677, 4929 677, 4965 672, 4999 666, 5029 659, 5058 649, 5080 637, 5099 624, 5113 610, 5124 596, 5128 580, 5128 567, 5124 554, 5115 544, 5102 536, 5085 533, 5068 533, 5048 542, 5028 554, 5010 571, 4995 596, 4982 625, 4974 656, 4974 688, 4974 719, 4984 747, 5001 770, 5028 786, 5063 800, 5098 800, 5141 800, 5182 795, 5225 790, 5259 779, 5259 779</trace>
+      <trace id="trace_ImadocSen-OnDB_writer36-sentence17_1_3_2" contextRef="#context_ImadocSen-OnDB_writer36-sentence17_1"> 5285 739, 5285 734, 5285 729, 5295 724, 5302 714, 5319 714, 5333 702, 5354 696, 5373 686, 5394 678, 5413 668, 5431 659, 5446 645, 5459 633, 5468 619, 5474 606, 5474 591, 5474 579, 5470 567, 5461 558, 5450 554, 5436 554, 5419 558, 5403 569, 5386 587, 5370 612, 5357 642, 5348 675, 5342 709, 5342 742, 5346 773, 5357 800, 5375 820, 5397 833, 5425 838, 5456 838, 5489 838, 5521 826, 5553 814, 5581 797, 5608 779, 5628 759, 5644 738, 5656 716, 5665 696, 5671 677, 5674 662, 5677 649, 5677 640, 5677 633, 5677 630, 5677 630, 5677 633, 5677 639, 5677 649, 5682 662, 5685 678, 5689 698, 5695 720, 5701 743, 5709 767, 5716 789, 5722 808, 5728 824, 5732 835, 5732 844, 5737 849, 5737 853, 5731 853, 5726 849, 5718 846, 5710 839, 5700 831, 5691 818, 5684 802, 5677 780, 5677 753, 5677 723, 5686 688, 5699 654, 5716 621, 5738 590, 5762 567, 5791 547, 5822 536, 5855 532, 5888 532, 5923 538, 5975 544, 6017 544, 6060 557, 6093 543, 6127 528, 6127 528</trace>
+    </traceGroup>
+  </traceGroup>
+</ink>
