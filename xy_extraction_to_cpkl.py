@@ -46,6 +46,8 @@ def getStroke(filename):
 
     result = []
 
+    
+    # otoro's normalization
     x_offset = 1e20
     y_offset = 1e20
     y_height = 0
@@ -56,13 +58,41 @@ def getStroke(filename):
     y_height -= y_offset
     x_offset -= 100
     y_offset -= 100
-
+    
+    # this will change correspondingly.
     for stroke in root[1].findall('Stroke'):
         points = []
         for point in stroke.findall('Point'):
             points.append([float(point.attrib['x']) - x_offset, float(point.attrib['y']) - y_offset ])
+        points.append([0.0, 0.0]) # this marks the end of the stroke.
         result.append(points)
     return result
+
+# the codes from Andy. This normalization is used by Google vision
+# I will adjust it to work with our model.
+def parse_dict(dict):
+
+    class_name = dict["filename"]
+    inkarray = dict["strokes"]
+    stroke_lengths = [len(stroke[0]) for stroke in inkarray]
+    total_points = sum(stroke_lengths)
+    np_ink = np.zeros((total_points, 3), dtype=np.float32)
+    current_t = 0
+    for stroke in inkarray:
+        for i in [0, 1]:
+            np_ink[current_t:(current_t + len(stroke[0])), i] = stroke[i]
+        current_t += len(stroke[0])
+        np_ink[current_t - 1, 2] = 1  # stroke_end
+    # Preprocessing.
+    # 1. Size normalization.
+    lower = np.min(np_ink[:, 0:2], axis=0)
+    upper = np.max(np_ink[:, 0:2], axis=0)
+    scale = upper - lower
+    scale[scale == 0] = 1
+    np_ink[:, 0:2] = (np_ink[:, 0:2] - lower) / scale
+    # 2. Compute deltas.
+    np_ink = np_ink[1:, 0:2] - np_ink[0:-1, 0:2]
+    return np_ink, class_name
 
 # converts a list of arrays into a 2d numpy int16 array
 def convert_stroke_to_array(stroke):
