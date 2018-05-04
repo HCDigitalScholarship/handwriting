@@ -8,7 +8,7 @@ import pickle
 import random
 import xml.etree.ElementTree as ET
 import csv
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 import numpy as np
 
@@ -118,13 +118,13 @@ def parse_dict(dict):
     # 2. Compute deltas.
     #np_ink = np_ink[1:, 0:2] - np_ink[0:-1, 0:2]
     # plot out the xy coordinate here, it is just a test to see if it is consistent after normalization
-    list_of_x_coordinates = []
-    list_of_y_coordinates = []
-    for i in range(len(np_ink)):
-        list_of_x_coordinates.append(np_ink[i][0]) # x coordinate
-        list_of_y_coordinates.append(np_ink[i][1]) # y coordinate
-    plt.plot(list_of_x_coordinates, list_of_y_coordinates, 'ro')
-    plt.show()
+    #list_of_x_coordinates = []
+    #list_of_y_coordinates = []
+    #for i in range(len(np_ink)):
+    #    list_of_x_coordinates.append(np_ink[i][0]) # x coordinate
+    #    list_of_y_coordinates.append(np_ink[i][1]) # y coordinate
+    #plt.plot(list_of_x_coordinates, list_of_y_coordinates, 'ro')
+    #plt.show()
     return np_ink, class_name
 
 def create_dictionary_from_xml(xml_file_name):
@@ -135,25 +135,25 @@ def create_dictionary_from_xml(xml_file_name):
         tree = ET.parse(xml_file_name)
         root = tree.getroot()
         strokes_list = []
-        list_of_x_coordinates = []
-        list_of_y_coordinates = []
+        #list_of_x_coordinates = []
+        #list_of_y_coordinates = []
         for i in range(len(root[1])):
             x_list = []
             y_list = []
             stroke = root[1][i]
             for coordinates in stroke:
                 x_list.append(int(coordinates.attrib['x']))
-                list_of_x_coordinates.append(int(coordinates.attrib['x']))
+                #list_of_x_coordinates.append(int(coordinates.attrib['x']))
                 y_list.append(int(coordinates.attrib['y']))
-                list_of_y_coordinates.append(int(coordinates.attrib['y']))
+                #list_of_y_coordinates.append(int(coordinates.attrib['y']))
             
             stroke_list = [x_list, y_list]
             strokes_list.append(stroke_list)
             dict['strokes'] = strokes_list
         #print(dict)
         # plot out the xy coordinate here
-        plt.plot(list_of_x_coordinates, list_of_y_coordinates, 'ro')
-        plt.show()
+        #plt.plot(list_of_x_coordinates, list_of_y_coordinates, 'ro')
+        #plt.show()
         return dict
     except:
         return None
