@@ -116,7 +116,7 @@ def parse_dict(dict):
     scale[scale == 0] = 1
     np_ink[:, 0:2] = (np_ink[:, 0:2] - lower) / scale
     # 2. Compute deltas.
-    np_ink = np_ink[1:, 0:2] - np_ink[0:-1, 0:2]
+    #np_ink = np_ink[1:, 0:2] - np_ink[0:-1, 0:2]
     # plot out the xy coordinate here, it is just a test to see if it is consistent after normalization
     list_of_x_coordinates = []
     list_of_y_coordinates = []
