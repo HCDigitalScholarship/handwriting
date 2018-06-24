@@ -90,8 +90,8 @@ print("Labels shape:", y_train.shape)
 
 # here is a very basic model for example.
 model = Sequential()
-model.add(Bidirectional(LSTM(5), input_shape=(SEQ_LENGTH, 1))) # shape = (Batch size, Seq length, Input dim)
-model.add(Dense(3, input_shape=(SEQ_LENGTH, 1)))
+model.add(Bidirectional(LSTM(5), input_shape=(SEQ_LENGTH, INPUT_DIM))) # shape = (Batch size, Seq length, Input dim)
+model.add(Dense(3))
 model.add(Dense(OUTPUT_DIM))
 model.compile(loss='mse',
               optimizer='rmsprop',
